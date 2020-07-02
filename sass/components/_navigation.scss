@@ -1,0 +1,31 @@
+.nav {
+
+    &__list {
+        display: flex;
+        width: 100%;
+        list-style: none;
+        padding: 1rem 2rem .5rem 2rem;
+    }
+
+    &__item {
+        padding: .5rem;
+        flex-shrink: 0;
+
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+    }
+    
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        font-family: var(--font-display);
+        text-decoration: none;
+        color: var(--color-font-primary);
+        font-size: 1.8rem;
+        //letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+}

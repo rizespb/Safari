@@ -1,0 +1,25 @@
+.btn-yellow {
+    display: inline-block;
+    font-family: var(--font-primary);
+    font-size: 1.6rem;
+
+    border-radius: 7px;
+    background-color: var(--color-yellow);
+    color: var(--color-blue-side);
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all .3s;
+   
+    &:active,
+    &:focus {
+        border: none;
+        outline: none;  
+    }
+
+    &:active {
+        transform: translateY(3px);
+        box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    }
+}

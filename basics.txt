@@ -1,0 +1,24 @@
+Color Top menu background #4cb2e7
+Color Font display #ffffff
+Color Font primary #737070
+Color Font Heading 3 #959595
+Color buttons #1280a7
+Color Side headings font 34abd6
+
+Color Header, Side 127ea5
+Color Footer 1584ad
+Color Input fields 0f6686
+Color SM icons 3bb3de + 9bd8ee
+Color Side heading background ece21c
+Color Active Tab 81ffff
+Color Passive Tab 299fca
+
+
+
+Color Section tours #d6e6ef
+
+
+Font top menu Philosofer 17px
+Font Primary Myriad Pro 14px
+Font Button Myriad Pro Bold 15px
+

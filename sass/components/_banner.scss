@@ -1,0 +1,31 @@
+.banner {
+    position: relative;
+    width: 67rem;
+    overflow: hidden;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+
+    &__img {
+        height: auto;
+        max-height: 100%;
+        width: 100%;
+    }
+
+    &__controller {
+        position: absolute;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        cursor: pointer;
+
+        &--left-arrow {
+            top: 15rem;
+            left: 1rem;
+        }
+
+        &--right-arrow {
+            top: 19rem;
+            left: 7rem;
+        }
+    }
+}

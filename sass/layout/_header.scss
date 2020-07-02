@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 70rem;
+    
+    background-image: url(../img/background-header-clouds-light.png), url(../img/background-header-rays.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom, top;
+
+    position: relative;
+    z-index: 1;
+
+    &__top-line {
+        width: 81%;
+        height: 12rem;
+        align-self: flex-start;
+        
+        margin-left: 15rem;
+        background-color: var(--color-blue-navigation);
+        
+        border-radius: 1rem;
+        transform: rotate(-2deg) translateY(-5rem);
+
+        &--container {
+            transform: rotate(2deg);
+
+            display: flex;
+            justify-content: flex-start;
+            padding: 5rem 3rem 0 3rem;
+
+        }
+    }
+
+    &__logo {
+        height: 12rem;
+    }
+
+    &__middle-container {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 15rem;
+        width: 100%;
+        z-index: 9;
+    }
+
+    &__online-booking {
+        position: relative;
+        width: 33rem;
+        background-color: var(--color-blue-side);
+        background-image: url(../img/ladder.png);
+        background-repeat: no-repeat;
+        background-position: 10% 100%;
+        border-radius: 20px;
+        border: 7px solid var(--color-primary-blue-light);
+        padding: 2rem 2rem 2rem 1.5rem;
+
+        transform: translateY(-3rem);
+
+        height: 47rem;
+        z-index: 9;
+            
+
+        & > .heading-2 {
+            display: inline-block;
+            padding: .4rem 4rem .4rem 1.5rem;
+            background-color: var(--color-yellow);
+            border-radius: 3px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+            transform: translateX(-3.5rem);
+
+            // drp-shadow добавляет тень для псевдоэлемента или для изображений с прозрачными частями 
+            filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+
+            &::after {
+                content: "";
+                background-color: var(--color-yellow);
+                width: 3rem;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 95%;
+                clip-path: polygon(0 0, 100% 0, 50% 50%, 100% 100%, 0 100%);
+            }
+        }
+    }
+}

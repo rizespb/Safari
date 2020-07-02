@@ -1,0 +1,24 @@
+:root {
+    --font-display: 'Philosopher', sans-serif;
+    --font-primary: 'Roboto Mono', monospace;
+
+    --color-font-primary: #ffffff;
+
+
+    --color-primary-blue: #1584ad;
+    --color-primary-blue-middle: #299fca;
+    --color-primary-blue-light: #7ebee0;
+    --color-blue-navigation: #4cb2e7;
+    --color-blue-side: #299fca;
+    --color-secondary: #d6e6ef;
+    --color-active-tab: #81ffff;
+    --color-passive-tab: #299fca;
+    --color-yellow: #ded90e; 
+    --color-input-field: #0f6686;
+    
+
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0,.7);
+    --shadow-light: 0 0 5px rgba(0, 0, 0, .7);
+
+    --line: 1px solid var(--color-grey-light-2);
+}

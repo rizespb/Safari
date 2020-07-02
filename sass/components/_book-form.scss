@@ -1,0 +1,47 @@
+.book-form {
+    margin-top: 3rem;
+    width: 100%;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family:  var(--font-primary);
+    font-size: 1.6rem;
+
+    //position: relative;
+
+
+    &__group{
+        display: flex;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+            align-items: center;
+        }
+    }
+
+    &__label {
+        margin-right: 1.5rem;
+    }
+
+    &__input-text,
+    &__select,
+    &__input-textarea {
+        outline: none;
+        height: 3.3rem;
+        width: 17rem;
+        border-radius: 7px;
+        border: 3px solid var(--color-primary-blue-light);
+        color: var(--color-primary-blue-middle);
+        font-family:  var(--font-primary);
+        font-size: 1.6rem;
+    }
+
+    &__input-textarea {
+        height: 6rem;
+    }
+
+    &__submit {
+        padding: .7rem 2rem;
+    }
+}

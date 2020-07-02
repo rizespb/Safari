@@ -1,0 +1,17 @@
+.section-offers {
+    display: flex;
+    width: 100%;
+    background-image: url(../img/background-offers-clouds-dark.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    color: black;
+    margin-top: -28rem;
+    padding-top: 15rem;
+
+    position: relative;
+    z-index: 100;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    //overflow: hidden;
+}

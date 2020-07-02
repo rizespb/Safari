@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="resources/favicon/favicon.png">
+        
+        <title>Safari Tours</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__top-line">
+                <div class="header__top-line--container">
+                    <img src="img/logo.png" alt="logo" class="header__logo">
+                    <navigation class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item border-animated"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item border-animated"><a href="#" class="nav__link">Packages</a></li>
+                        <li class="nav__item border-animated"><a href="#" class="nav__link">Flights</a></li>
+                        <li class="nav__item border-animated"><a href="#" class="nav__link">Trains</a></li>
+                        <li class="nav__item border-animated"><a href="#" class="nav__link">Reach us</a></li>
+                    </ul>
+                    </navigation>
+                </div>
+            </div>
+
+            <div class="header__middle-container">
+
+                <div class="banner">
+                    <img src="img/banner-1.png" alt="banner-plane" class="banner__img">
+
+                    
+                    <img src="img/left-arrow.png" alt="left arrow" class="banner__controller banner__controller--left-arrow">
+                    
+                    <img src="img/right-arrow.png" alt="left arrow" class="banner__controller banner__controller--right-arrow">
+                </div>
+
+                <div class="header__online-booking">    
+                        <h2 class="heading-2">Online Booking</h2>
+
+                    <form action="#" class="book-form" autocomplete="off">
+                        <div class="book-form__group">
+                            <label for="name" class="book-form__label">Name:</label>
+                            <input type="text" class="book-form__input-text" id="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="book-form__group">
+                            <label for="email" class="book-form__label">Email:</label>
+                            <input type="text" class="book-form__input-text" id="email" placeholder="Your email" required>
+                        </div>
+
+                        <div class="book-form__group">
+                            <label for="package" class="book-form__label">Package:</label>
+
+                            <select id="package" class="book-form__select">
+                                <option value="africa" class="book-form__select-item">Africa Package</option>
+                                <option value="europe" class="book-form__select-item">Europe Package</option>
+                                <option value="asia" class="book-form__select-item">Asia Package</option>
+                                <option value="america" class="book-form__select-item">America Package</option>
+                            </select>
+                        </div>
+
+                        <div class="book-form__group">
+                            <label for="message" class="book-form__label">Message:</label>
+                            <textarea type="text" class="book-form__input-textarea" id="message" placeholder="Type your message here" required></textarea>
+                        </div>
+
+                        <button class="book-form__submit btn-yellow" type="submit">Submit</button>                        
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <section class="section-offers">
+            
+            <div class="special-offers">
+
+                <h2 class="special-offers__heading">Our special offers</h2>
+
+                <div class="special-offers__offer">
+                    <img src="img/offer-1.jpg" alt="Offer 1" class="special-offers__img">
+                    <div class="special-offers__text-content">
+                        <p class="special-offers__text-content--heading">1914 translation</p>
+                        <p class="special-offers__text-content--text">But I must explain to you how all this mistaken idea of denouncing pleasure</p>
+                    </div>
+                    <div class="special-offers__container">
+                        <div class="special-offers__price">700$</div>
+                        <div class="special-offers__btn btn-yellow">Read more</div>
+                    </div>
+                </div>
+
+                <div class="special-offers__offer">
+                    <img src="img/offer-2.jpg" alt="Offer 1" class="special-offers__img">
+                    <div class="special-offers__text-content">
+                        <p class="special-offers__text-content--heading">1914 translation</p>
+                        <p class="special-offers__text-content--text">But I must explain to you how all this mistaken idea of denouncing pleasure</p>
+                    </div>
+                    <div class="special-offers__container">
+                        <div class="special-offers__price">900$</div>
+                        <div class="special-offers__btn btn-yellow">Read more</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="summer-offers">
+                <div class="summer-offers__tab">
+                    <div class="summer-offers__tab-btn summer-offers__tab-btn--active">
+                        Tours
+                    </div>
+                    <div class="summer-offers__tab-btn">
+                        Photos
+                    </div>
+                </div>
+
+                <div class="tour-list">
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Lorem ipsum dolor sit amet consectetur</p>
+                        <p class="tour-list__tour-duration">10 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Adipisicing elit distinctio, ad quos quod</p>
+                        <p class="tour-list__tour-duration">10 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Voluptate sit nam, ipsum adipisci cupiditate</p>
+                        <p class="tour-list__tour-duration">11 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Eaque consequuntur repudiandae nulla</p>
+                        <p class="tour-list__tour-duration">17 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description"> Doloribus, harum enim!</p>
+                        <p class="tour-list__tour-duration">22 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Lorem ipsum dolor sit amet</p>
+                        <p class="tour-list__tour-duration">13 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Dicta quasi voluptate sit nam</p>
+                        <p class="tour-list__tour-duration">17 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                    <div class="tour-list__line">
+                        <i class="fas fa-play-circle"></i>
+                        <p class="tour-list__tour-description">Ipsum adipisci cupiditate eaque consequuntur</p>
+                        <p class="tour-list__tour-duration">33 days</p>
+                        <a href="" class="tour-list__more-details">More details</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+    </body>
+</html>
