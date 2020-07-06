@@ -2,3 +2,7 @@ node_modules/
 /node_modules/
 node_modules/*
 /node_modules/*
+<<<<<<< HEAD
+=======
+package.json
+>>>>>>> 9b4c6efb777d465bdb26bb4d849ee30f48111ba4
