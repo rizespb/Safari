@@ -121,7 +121,8 @@ body {
   .book-form__input-textarea {
     height: 6rem; }
   .book-form__submit {
-    padding: .7rem 2rem; }
+    padding: .7rem 2rem;
+    z-index: 1000 !important; }
 
 .btn-yellow {
   display: inline-block;
