@@ -1,0 +1,77 @@
+.address {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 5rem;
+
+    &__news-social-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading {
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    &__btn {
+        padding: .5rem 1rem;
+        letter-spacing: -1px;
+    }
+    
+
+    &__form-news-letters {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 3rem;
+
+        &--input {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__social-icons {
+        display: flex;
+
+        & .fab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 4rem;
+            height: 4rem;
+            font-size: 2.7rem;
+            color: var(--color-font-icons);
+            background-color: var(--color-icons-back);
+            border-radius: 50%;
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    &__contacts {
+
+        &--text {
+            font-style: normal;
+
+            &:not(:last-child) {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    &__contact-form {
+        // display: flex;
+        // flex-direction: column;
+
+        & input, textarea {
+            margin-bottom: 1rem;
+        }
+
+        & .address__btn {
+            float: right;
+        }
+    }
+}

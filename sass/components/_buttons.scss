@@ -1,10 +1,9 @@
-.btn-yellow {
+.btn {
     display: inline-block;
     font-family: var(--font-primary);
     font-size: 1.6rem;
 
     border-radius: 7px;
-    background-color: var(--color-yellow);
     color: var(--color-blue-side);
     font-weight: 700;
     cursor: pointer;
@@ -23,3 +22,18 @@
         box-shadow: 0 0 5px rgba(0, 0, 0, .3);
     }
 }
+
+.btn-yellow {
+    background-color: var(--color-yellow);
+}
+
+.btn-grey {
+    background-color: var(--color-grey);
+}
+
+
+.btn-blue {
+    background: linear-gradient(to bottom, rgb(28, 167, 217), rgb(18, 127, 167));
+    color: var(--color-font-primary) !important;
+}
+

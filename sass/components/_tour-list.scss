@@ -1,0 +1,45 @@
+.tour-list {
+    flex: 1; // занимаем всю доступную высоту
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    //height: 100%;
+    padding: 2rem .7rem;
+    color: var(--color-font-primary);
+    font-weight: 300;
+
+    &__line {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        letter-spacing: -.5px;
+        
+        
+    }
+
+    & .fa-play-circle {
+        display: inline-block;
+        margin-right: 1rem;
+        font-size: 1.2rem;
+        color: var(--color-active-tab);
+        cursor: pointer;
+    }
+
+    &__tour-description {
+        flex: 1;
+        word-spacing: -3px;
+    }
+
+    &__tour-duration {
+        text-align: left;
+        margin-right: 7rem;
+    }
+
+    &__more-details,
+    &__more-details:link,
+    &__more-details:active {
+        color: var(--color-font-primary);
+        text-decoration: none;
+    }
+}

@@ -6,10 +6,49 @@
     background-size: 100% auto;
     background-position: top;
     color: black;
-    margin-top: -33rem;
+    margin-top: -28rem;
     padding-top: 15rem;
     padding: 15rem 15rem 1rem 15rem;
     position: relative;
     z-index: 100;
     //overflow: hidden;
+}
+
+.section-map {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 60rem;
+    background-color: var(--color-map-background);
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-bottom: 2px solid var(--color-primary-blue);
+
+    & > .heading-2 {
+        color: #487793;
+        font-size: 2.7rem;
+        letter-spacing: -1px;
+    }
+
+    & > .heading-3 {
+        color: var(--color-primary-blue-light);
+        font-weight: 700 !important;
+        letter-spacing: -1px;
+    }
+}
+
+.section-tours {
+    display: flex;
+    padding: 4rem 15rem;
+    background-color: var(--color-map-background);
+    
+
+    &__destinations {
+        display: flex;
+        flex-basis: 25%;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
 }

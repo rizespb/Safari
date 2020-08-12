@@ -1,0 +1,44 @@
+.destinations-block {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100%;
+    background-color: var(--color-destinations-background);
+    border-radius: 10px;
+    padding: 2rem 1rem 2rem 0;
+    position: relative;
+
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__heading-container {
+        width: 100%;
+        min-height: 6rem;
+        background-image: url(../img/ribbon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        //transform: translateX(-1.1rem);
+
+        position: absolute;
+        left: -1.2rem;
+    }
+
+    &__heading {
+        //background: linear-gradient(to bottom, rgb(243, 232, 31), rgb(211, 201, 16));
+        text-transform: uppercase;
+        color: var(--color-destinations-background);
+        padding-top: .3rem;
+        padding-left: 3rem;    
+        font-weight: 700;
+        font-size: 1.7rem;
+    }
+
+    &__link {
+        
+        margin: 0 0 1rem 4rem; 
+        text-decoration: none;
+        color: var(--color-white);  
+        font-weight: 300; 
+    }
+}

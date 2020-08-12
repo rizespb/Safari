@@ -6,13 +6,19 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/address";
 @import "components/banner";
 @import "components/book-form";
 @import "components/buttons";
+@import "components/destinations-block";
 @import "components/navigation";
 @import "components/special-offers";
 @import "components/summer-offers";
+@import "components/tour-list";
+@import "components/tour-viewer";
+@import "components/tour-with-photos";
 
+@import "layout/footer";
 @import "layout/header";
 
 @import "pages/home";
